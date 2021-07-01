@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap');
+
+body {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    font-family: arial; 
+    overflow: hidden;
+}
+.button{
+    display: block;
+    margin: -5px auto;
+    padding: 6px 18px;
+    border: 2px solid black;
+    background: aquamarine;
+    font-family: 'Baloo Tamma 2', cursive;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    position: absolute;
+    margin-left: 48rem;
+    margin-top: -11rem;
+}
+
+body::before{
+    content: "";
+    height: 110%;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background: url("pic4.png") no-repeat center center/cover;
+    z-index: -1;
+}
+
+.printRand{
+    width: 70vw; 
+    max-width: 600px; 
+    margin: 20px auto; 
+    background-color: black; 
+    border-radius: 30px; 
+    box-shadow: 1px 4px pink; 
+}
+h1, p {
+    text-align: center;  
+    text-transform: uppercase; 
+    color: white; 
+    padding: 5px; 
+    /* margin: 2px 5px;  */
+    margin: 60px 5px;
+    
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    padding: 5px;
+    margin: 53px 4px;
+    background-color: blueviolet;
+    position: absolute;
+    background: cornsilk;
+    font-family: 'Baloo Tamma 2', cursive;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 26px;
+    position: absolute;
+    margin-left: 44rem;
+    margin-top: -11rem;
+    margin-top: 167px;
+    padding: 17px 87px;
+
+}
+.title{
+    color: blueviolet;
+    text-transform: none; 
+    font-size: 63px; 
+    padding-top: 30px; 
+    padding-bottom: 100px; 
+    text-shadow: 1px 4px pink; 
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.CTA{
+    padding-bottom: 10px; 
+    font-weight: bolder;
+    font-size: 30px;
+    color: cyan;
+    margin-top: -164px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+.display-none{
+    display: none; 
+}
+.error{
+    color: red; 
+    font-weight: bolder; 
+    text-decoration: line-through; 
+}
